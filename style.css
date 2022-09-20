@@ -100,6 +100,9 @@
 .row {
     display: flex;
 }
+footer{
+    background-color: #23272a;
+}
 /*header-----
 ----------*/
 header{
@@ -237,6 +240,10 @@ header{
 }
 .col-grande{
     width: 30%;
+}
+.titolo-footer{
+    font-size: 30px;
+    color: #7289da;
 }
 .col-piccolo{
     width: 17.5%;
