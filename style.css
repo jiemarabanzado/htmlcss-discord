@@ -181,7 +181,7 @@ header{
 /*-------
   main---*/
 .content{
-    
+   padding:45px 0px; 
 }
 .row{
     display: flex;
@@ -204,6 +204,7 @@ header{
 }
 .content:nth-child(2){
     background-color: #d3d3d3;
+    
 }
 .big-section{
     padding-top: 50px;
