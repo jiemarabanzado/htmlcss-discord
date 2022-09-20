@@ -199,11 +199,11 @@ header{
     margin-top: 30px;
 }
 .content:nth-child(2){
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 .big-section{
-    padding-top: 50px;
-    background-color:#d3d3d3 ;
+    padding: 45px 0px;
+    background-color:#f6f6f6 ;
 }
 .big-under{
     margin-top: 20px;
@@ -216,7 +216,19 @@ header{
 }
 .titolo-image{
     background-image: url(img/stars.svg);
-    display: inline-block;
+    background-size: contain;
+    margin: auto;
+    width: 450px;
+    height: 60px;
+}
+.bottom-download{
+    background-color: #7289da; 
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
 }
 .collegamenti{
    margin-bottom: 2px;
