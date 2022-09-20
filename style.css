@@ -218,8 +218,9 @@ header{
     background-image: url(img/stars.svg);
     background-size: contain;
     margin: auto;
-    width: 450px;
-    height: 60px;
+    width: 500px;
+    height: 65px;
+    font-size: 30px;
 }
 .bottom-download{
     background-color: #7289da; 
@@ -232,6 +233,7 @@ header{
 }
 .collegamenti{
    margin-bottom: 2px;
+   padding: 45px;
 }
 .col-grande{
     width: 30%;
