@@ -245,6 +245,24 @@ header{
     font-size: 30px;
     color: #7289da;
 }
+.language{
+    color: white;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.icons{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+i{
+    margin: 0px 5px;
+}
+.flag{
+    width:25px;
+    vertical-align: middle;
+}
 .col-piccolo{
     width: 17.5%;
 }
