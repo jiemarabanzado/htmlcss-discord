@@ -142,10 +142,8 @@ header{
     border-radius: 13px;
     border: none;
 }
-
 .hero {
     padding-top: 100px;
-
 } 
 .slogan{
     font-size: 50px;
@@ -177,7 +175,6 @@ header{
     cursor: pointer;
     font-size: 20px;
 }
-
 /*-------
   main---*/
 .content{
@@ -189,7 +186,6 @@ header{
 .col-big{
     width: 60%;
     padding-top: 70px;
-
 }
 .col-small{
    width: 40%;
@@ -204,10 +200,23 @@ header{
 }
 .content:nth-child(2){
     background-color: #d3d3d3;
-    
 }
 .big-section{
     padding-top: 50px;
+    background-color:#d3d3d3 ;
+}
+.big-under{
+    margin-top: 20px;
+}
+.big-row{
+    text-align: center;
+}
+#big-image{
+    width: 1200px;
+}
+.titolo-image{
+    background-image: url(img/stars.svg);
+    display: inline-block;
 }
 .collegamenti{
    margin-bottom: 2px;
