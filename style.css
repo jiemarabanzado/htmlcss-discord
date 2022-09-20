@@ -181,17 +181,26 @@ header{
 /*-------
   main---*/
 .content{
-    padding-top: 50px; 
+    
 }
 .row{
     display: flex;
 }
 .col-big{
     width: 60%;
+    padding-top: 70px;
 
 }
 .col-small{
    width: 40%;
+   padding-top: 100px;
+}
+.titoli{
+    font-size: 50px;
+}
+.under{
+    max-width: 350px;
+    margin-top: 30px;
 }
 .content:nth-child(2){
     background-color: #d3d3d3;
