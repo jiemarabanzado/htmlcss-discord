@@ -276,8 +276,19 @@ i{
 .navigazioni{
     display: flex;
 }
+.registrati{
+    height: 30px;
+    width: 80px;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    background-color: #7289da;
+}
 .foot{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid #7289da;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
