@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
-
     margin:0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 /*------------
    debug
@@ -95,6 +95,7 @@
 .container-small {
     max-width: 900px;
     margin: auto;
+    text-align: center;
 }
 .row {
     display: flex;
@@ -102,7 +103,9 @@
 /*header-----
 ----------*/
 header{
-    background-image: url(../img/jumbo.png);
+    background-image:url(img/jumbo.png);
+    background-size: cover;
+    height: 580px;
 }
 .header-top {
     padding: 16px 0;
@@ -127,21 +130,54 @@ header{
 }
 .main-nav ul li a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
+
 .login {
     text-align: right;
 }
 .log-button{
     height: 30px;
-    width: 50px;
+    width: 60px;
     border-radius: 13px;
     border: none;
 }
 
 .hero {
-    padding: 50px 0;
+    padding-top: 100px;
+
 } 
+.slogan{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.descrizione{
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#windows{
+    background-color: white; 
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+#browser{
+    background-color: #23272a;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 /*-------
   main---*/
 .content{
