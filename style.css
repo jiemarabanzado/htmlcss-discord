@@ -266,6 +266,13 @@ i{
 .col-piccolo{
     width: 17.5%;
 }
+.categoria{
+    color: #7289da;
+}
+.foot-nav{
+    color: white;
+    margin-top: 12px;
+}
 .navigazioni{
     display: flex;
 }
